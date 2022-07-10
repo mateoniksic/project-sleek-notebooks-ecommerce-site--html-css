@@ -1,0 +1,70 @@
+.footer {
+
+    width: 100%;
+
+    &__wrapper {
+        max-width: 128rem;
+       
+        margin: 0 auto;
+        padding: 4rem 1.6rem 2.4rem 1.6rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: top;
+    }
+
+    &__wrapper-links {
+        width: max-content;
+
+        @include respond (s) {
+            width: 100%;
+            margin-bottom: 2.4rem;
+        }
+    }
+
+    &__heading {
+        margin-bottom: 1.2rem;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        margin-bottom: 0.8rem;
+    }
+
+    &__link {
+        color: $color-black;
+        text-decoration: none;
+    }
+
+    &__wrapper-bottom {
+        max-width: 128rem;
+       
+        margin: 0 auto;
+        padding: 4rem 1.6rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        @include respond (s) {
+            padding: 0rem 1.6rem 2rem 1.6rem;
+        }
+    }
+
+    &__info {
+        font-weight: 400;
+        color: rgba(0,0,0,0.4);
+        
+    }
+
+    &__payments {
+        width: 100%;
+        max-width: 32.8rem;
+    }
+
+}

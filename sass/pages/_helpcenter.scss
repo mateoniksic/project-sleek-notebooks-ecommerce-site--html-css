@@ -1,0 +1,59 @@
+.hcenter {
+    width: 100%;
+
+    &__wrapper {
+        max-width: 128rem;
+        
+        margin: 0 auto;
+        padding: 12rem 1.6rem 12rem 1.6rem;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        @include respond (xs) {
+            padding: 4rem 1.6rem 4rem 1.6rem;
+        }
+    }
+
+    &__heading {
+        margin-bottom: 1.2rem;
+    }
+
+    &__breadcrumbs {
+        color: rgba(0,0,0,0.4);
+    }
+
+    &__breadcrumbs-link {
+        color: rgba(0,0,0,0.4);
+        text-decoration: none;
+
+        &:hover, &:focus {
+            color: $color-black;
+        }
+    }
+
+    &__wrapper-faq {
+        width: 100%;
+        margin-top: 9.2rem;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 40rem);
+        grid-gap: 4.8rem;
+        justify-content: center
+    }
+
+    &__wrapper-faq-item {
+        width: 100%;
+        max-width: 40rem;
+    }
+
+    &__heading-faq {
+        margin-bottom: .8rem;
+    }
+
+    &__text-faq {
+        
+    }
+}

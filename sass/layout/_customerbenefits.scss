@@ -1,0 +1,49 @@
+.customerbenefits {
+    width: 100%;
+
+    &__wrapper {
+        max-width: 128rem;
+        
+        margin: 0 auto;
+        padding: 4rem 1.6rem 4rem 1.6rem;
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        @include respond (m) {
+            padding: 2.4rem 1.6rem 2.4rem 1.6rem;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+        }
+    }
+
+    &__benefit {
+        background: $color-primary-gradient-transparent;
+        
+        width: 100%;
+        max-width: 32rem;
+
+        padding: 2rem 1.2rem;
+
+        display: flex;
+        flex-direction: row;
+
+        border-radius: 1.2rem;
+
+        @include respond (m) {
+            margin-bottom: 1.6rem;
+        }
+
+
+    }
+
+    &__benefit-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.2rem;
+    }
+}

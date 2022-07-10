@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+
+    &__wrapper {
+        max-width: 128rem;
+       
+        margin: 0 auto;
+        padding: 2.4rem 1.6rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__navigation {
+        @include respond (xs) {
+            order: 1;
+        }
+    }
+
+    &__navigation__list {
+        list-style: none;
+    }
+
+    &__navigation__item {
+        display: inline-block;
+        @include respond (xs) {
+            padding: .4rem .8rem;
+        }
+    }
+
+    &__navigation__item:first-child {
+        margin-right: 2.4rem;
+
+        @include respond (xs) {
+            margin-right: 0;
+        }
+    }
+
+    &__navigation__link {
+        color: $color-black;
+        text-decoration: none;
+    }
+
+    &__logo-link {
+        @include respond (xs) {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+    }
+
+}

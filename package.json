@@ -1,0 +1,19 @@
+{
+  "name": "sleek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass ./sass/style.scss ./css/style.css -w",
+    "compile:sass": "node-sass ./sass/style.scss ./css/style.css",
+    "compress:css": "node-sass ./css/style.css ./css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass compress:css"
+  },
+  "author": "Mateo Niksic",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "node-sass": "^7.0.1",
+    "postcss-cli": "^9.1.0"
+  }
+}

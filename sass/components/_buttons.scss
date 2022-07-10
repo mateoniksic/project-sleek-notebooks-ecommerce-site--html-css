@@ -1,0 +1,43 @@
+.primary-button {
+    background-color: $color-black;
+    color: $color-white;
+    text-decoration: none;
+
+    padding: 1rem 1.6rem;
+    margin-right: 2rem;
+    border-radius: .4rem;
+    
+    &__info {
+        font-weight: 400;
+    }
+
+    &:hover, &:focus {
+        background-color: lighten($color-black, 20);
+    }
+}
+
+.secondary-button {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border: .1rem solid $color-black;
+    color: $color-black;
+    text-decoration: none;
+
+    padding: 1rem 1.6rem;
+    margin-right: 2rem;
+    border-radius: .4rem;
+    &:hover, &:focus {
+        background-color: $color-black;
+        color: $color-white;
+    }
+}
+
+
+.link-button {
+    padding: 1rem 1.6rem;
+    border-radius: .4rem;
+    color: $color-black;
+    text-decoration: none;
+    font-weight: 600;
+}
