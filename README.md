@@ -6,4 +6,6 @@ Custom designed (in Figma) ecommerce website for sleek notebooks.
 2. Open index.html in your browser
 
 ## Application preview
-![alt text](home.png)
+![Home](showcase/page-home.png)
+![Shop](showcase/page-shop.png)
+![Product](showcase/page-product.png)
