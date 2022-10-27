@@ -6,6 +6,8 @@ Custom designed (in Figma) ecommerce website for sleek notebooks.
 2. Open index.html in your browser
 
 ## Application preview
+Link to website: https://sleek-notebooks.netlify.app
+
 ![Home](showcase/page-home.png)
 
 ![Shop](showcase/page-shop.png)
